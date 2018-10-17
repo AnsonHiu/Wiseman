@@ -1,0 +1,789 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Wiseman Education</title>
+  <link rel="stylesheet" type="text/css" href="/wo_system/template/site2018/template.css">
+  <link rel="stylesheet" type="text/css" href="/wo_system/template/site2018/tab/tabcontent.css">
+  <link rel="stylesheet" href="/site/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen">
+  <link rel="stylesheet" href="/site/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen">
+  <link rel="stylesheet" href="/site/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen">
+  <script type="text/javascript" src="/wo_system/template/site2018/tab/tabcontent.js"></script>
+  <script src="/wo_system/template/site/swfobject.js" type="text/javascript"></script>
+  <script src="/wo_system/template/site/banner.js" type="text/javascript"></script>
+  <script src="/wo_system/template/site/video.js" type="text/javascript"></script>
+  <script src="/wo_system/template/site2013/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="/wo_system/template/site2013/js/swfobject.js" type="text/javascript"></script>
+  <script src="/site/js/jquery_image_slider_with_thumbnail.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/site/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script type="text/javascript" src="/site/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/site/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="/site/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/site/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-125640326-4" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $('#slideshow').cycle({
+      fx: 'scrollHorz', // Here you can change the effect
+      speed: 800,
+      timeout: 5000,
+      pager: '#thumbnail',
+      pagerAnchorBuilder: function(idx, slide) {
+        return '<td align="center" valign="middle"><div style="position:relative;width:120px;height:56px;overflow:hidden;"><a href="#"><img src="/site/images/' + slide.id + '" style="width:168px;height:56px;"/></a></div></td>';
+      }
+    });
+  });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#play_button').css('opacity', 0.4);
+      $('#play_button').hover(
+        function(){
+          $(this).stop().fadeTo( 300, 1);
+        },
+        function(){
+          $(this).stop().fadeTo( 300, 0.4);
+        });
+
+        $('#video_box_small21').click(function(){
+          if ($( "#fnf_video" ).length) {
+            $.fancybox({
+              maxWidth	: 1500,
+              maxHeight	: 900,
+              'width': '90%',
+              'height': '90%',
+              'autoScale': false,
+              'transitionIn': 'fade',
+              'transitionOut': 'fade',
+              'type': 'iframe',
+              'href': 'site/fnf_video.html',
+
+            });
+
+          }
+
+
+        });
+        $('#close').click(function(){
+          $('#video_box21').fadeOut( 300 );
+          $('#video_box21 video').get(0).pause();
+        });
+
+
+        $('#video_box_small22').click(function(){
+          if ($( "#adventure_with_dad_video" ).length) {
+            $.fancybox({
+              maxWidth	: 1500,
+              maxHeight	: 900,
+              'width': '90%',
+              'height': '90%',
+              'autoScale': false,
+              'transitionIn': 'fade',
+              'transitionOut': 'fade',
+              'type': 'iframe',
+              'href': 'site/adventure_with_dad_video.html',
+
+            });
+
+          }
+
+
+        });
+        $('#close').click(function(){
+          $('#video_box22').fadeOut( 300 );
+          $('#video_box22 video').get(0).pause();
+        });
+
+
+        $('#video_box_small23').click(function(){
+          if ($( "#first_day_of_school" ).length) {
+            $.fancybox({
+              maxWidth	: 1500,
+              maxHeight	: 900,
+              'width': '90%',
+              'height': '90%',
+              'autoScale': false,
+              'transitionIn': 'fade',
+              'transitionOut': 'fade',
+              'type': 'iframe',
+              'href': 'site/first_day_of_school.html',
+
+            });
+
+          }
+
+
+        });
+        $('#close').click(function(){
+          $('#video_box23').fadeOut( 300 );
+          $('#video_box23 video').get(0).pause();
+        });
+
+
+        $('#video_box_small24').click(function(){
+          if ($( "#bookclub_video" ).length) {
+            $.fancybox({
+              maxWidth	: 1500,
+              maxHeight	: 900,
+              'width': '90%',
+              'height': '90%',
+              'autoScale': false,
+              'transitionIn': 'fade',
+              'transitionOut': 'fade',
+              'type': 'iframe',
+              'href': 'site/bookclub_video.html',
+
+            });
+
+          }
+
+
+        });
+        $('#close').click(function(){
+          $('#video_box24').fadeOut( 300 );
+          $('#video_box24 video').get(0).pause();
+        });
+      });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#slideshow2').cycle({
+        fx: 'scrollHorz', // Here you can change the effect
+        speed: 1500,
+        timeout: 5000,
+        pager: '#thumbnail',
+        pagerAnchorBuilder: function(idx, slide) {
+          return '<td align="center" valign="middle"><div style="position:relative;width:120px;height:56px;overflow:hidden;"><a href="#"><img src="/site/images/' + slide.id + '" style="width:168px;height:56px;"/></a></div></td>';
+        }
+      });
+    });
+
+  </script>
+  <script type="text/javascript">
+    <!--
+    function trim(value) {
+      return value.replace(/^\s+|\s+$/gm, '');
+    }
+
+    function validateLogin(event) {
+      var loginForm = document.getElementById("loginForm");
+      var usernameField = loginForm.elements["usernameField"];
+      var usernameValue = trim(usernameField.value);
+      var schoolCode = loginForm.elements['schoolCode'];
+      var username = loginForm.elements["username"];
+      var period = usernameValue.indexOf(".");
+      if (usernameValue.charAt(0) == 'p' && period > 0) {
+        loginForm.action = 'https://mo.fnfclub.hk/lms/user/login.do';
+        username.value = usernameValue;
+        return true;
+      } else if (usernameValue.charAt(0) == 's' && period > 0) {
+        loginForm.action = 'https://mo-lms.wiseman.com.hk/lms/user/login.do';
+        username.value = usernameValue;
+        return true;
+        //loginForm.action = '/user/login.do';
+        //schoolCode.value = usernameValue.substr(0, period);
+        //username.value = usernameValue.substr(period + 1, usernameValue.length);
+        //return true;
+      } else {
+        loginForm.action = '/index.shtml';
+        return true;
+      }
+    }
+    //-->
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#slideshow6').cycle({
+        fx: 'scrollHorz', // Here you can change the effect
+        speed: 3000,
+        timeout: 5000,
+        pager: '#thumbnail',
+        pagerAnchorBuilder: function(idx, slide) {
+          return '<td align="center" valign="middle"><div style="position:relative;width:120px;height:56px;overflow:hidden;"><a href="#"><img src="/site/images/' + slide.id + '" style="width:168px;height:56px;"/></a></div></td>';
+        }
+      });
+
+      $('#reward_2017_box_small').click(function(){
+        if ($( "#reward_2017_box_small" ).length) {
+          $.fancybox({
+            maxWidth	: 1200,
+            maxHeight	: 750,
+            'width': '90%',
+            'height': '90%',
+            'autoScale': false,
+            'transitionIn': 'fade',
+            'transitionOut': 'fade',
+            'type': 'iframe',
+            'href': 'site/reward_2018.html',
+
+          });
+
+        }
+
+
+      });
+      $('#close').click(function(){
+        $('#reward_2017_box_small').fadeOut( 300 );
+      });
+
+    });
+
+  </script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125640326-4');
+  </script>
+  <style type="text/css">
+    #slideshow, #slideshow>div {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <style type="text/css">
+    #slideshow2, #slideshow2>div {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <style type="text/css">
+    #slideshow6, #slideshow6>div {
+    height: 100%;
+    width: 100%;
+  }
+  </style>
+</head>
+<body>
+  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td>
+        <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+          <tr>
+            <td>
+              <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td class="header_background" align="center">
+                          <table width="800" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td width="185" valign="bottom" align="left"><a href="/"><img src="/wo_system/template/site2018/images/wiseman_large1.gif" vspace="10" alt="Wiseman Education" border="0"></a></td>
+                              <td valign="bottom" align="right">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tr>
+                                    <td valign="bottom">
+                                      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                          <td valign="bottom"><img src="/site/images/banner_wiseman1.gif" border="0"></td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="menu_top_background" align="center">
+                          <table width="800" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td align="left">
+                                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td align="left">
+                                      <table cellspacing="0" cellpadding="5" border="0" width="100%">
+                                        <tr>
+                                          <td class="menu_top_box"><a class="menu_top" href="/site/initiatives/"><img src="/wo_system/template/site2018/images/icon_initiatives.png">
+                                            <div>
+                                              Initiatives
+                                            </div>
+                                          </a>  </td>
+                                          <td class="menu_top_box"><a class="menu_top" href="/site/achievement/"><img src="/wo_system/template/site2018/images/icon_achievement.png">
+                                            <div>
+                                              Achievement
+                                            </div>
+                                          </a>  </td>
+                                          <td class="menu_top_box"><a class="menu_top" href="/site/aboutus/"><img src="/wo_system/template/site2018/images/icon_about_us.png">
+                                            <div>
+                                              About Us
+                                            </div>
+                                          </a>  </td>
+                                          <td class="menu_top_box"><a class="menu_top" href="/site/support/"><img src="/wo_system/template/site2018/images/icon_support.png">
+                                            <div>
+                                              Support
+                                            </div>
+                                          </a>  </td>
+                                          <td class="menu_top_box"><a class="menu_top" href="/site/contacts/"><img src="/wo_system/template/site2018/images/icon_contact_us.png">
+                                            <div>
+                                              Contact Us
+                                            </div>
+                                          </a>  </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td align="right">
+                                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td align="right">
+                                      <table cellspacing="0" cellpadding="5" border="0">
+                                        <tr>
+                                          <td></td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="100%" valign="top">
+                    <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td valign="top" align="center" class="content_background">
+                          <table width="800" height="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td>
+                                <table width="100%" height="100%" cellspacing="20" cellpadding="0" border="0">
+                                  <tr>
+                                    <td align="center" valign="top" height="300">
+                                      <table width="250" height="300" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td align="center" valign="top">
+                                            <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td valign="top">
+                                                  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tr>
+                                                      <td>
+                                                        <div class="tab_pink">
+                                                          <h1>&nbsp;&nbsp;News</h1>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                            <td valign="top" bgcolor="#FFFFFF">
+                                                              <table height="100%" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                <tr>
+                                                                  <td valign="top" height="275">
+                                                                    <div id="slideshow">
+                                                                      <div id="banner_eb_the_age_of_esports_mo_1.png" class="fban">
+                                                                        <div style="position:absolute;">
+                                                                          <img src="/site/images/banner_eb_the_age_of_esports_mo_1.png" border="0">
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="banner_back_to_school_2018_2.png">
+                                                                        <div style="position:absolute;">
+                                                                          <img src="/site/images/banner_back_to_school_2018_2.png" border="0">
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="banner_download_apps_2.png" class="fban">
+                                                                        <div style="position:absolute;">
+                                                                          <a href="/site/app/download/"><img src="/site/images/banner_download_apps_2.png" border="0"></a>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="banner_share_see.png">
+                                                                        <div style="position:absolute;">
+                                                                          <a href="/site/sharing/show/"><img src="/site/images/banner_share_see.png" border="0"></a>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="banner_share_see.png">
+                                                                        <div style="position:absolute;">
+                                                                          <a href="/site/sharing/"><img src="/site/images/banner_share.png" border="0"></a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </td>
+                                                                </tr>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td align="center" valign="top">
+                                      <table width="250" height="300" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td align="center" valign="top">
+                                            <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td valign="top">
+                                                  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tr>
+                                                      <td>
+                                                        <div class="tab_red">
+                                                          <h1>&nbsp;&nbsp;Sharing</h1>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                            <td valign="top" bgcolor="#FFFFFF">
+                                                              <div id="fnf_video"></div>
+                                                              <div id="bookclub_video"></div>
+                                                              <div id="adventure_with_dad_video"></div>
+                                                              <div id="first_day_of_school"></div>
+                                                              <table height="100%" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                <tr>
+                                                                  <td valign="top" height="275">
+                                                                    <div id="slideshow2">
+                                                                      <div id="" class="fban">
+                                                                        <div id="video_box_small21" style="position:relative; cursor:pointer; height: 100%;">
+                                                                          <img id="play_button" style="position:absolute; top:0px; left:0px;width:100%;" src="/site/images/button_play.png"> <img style="width:100%;" src="/site/images/banner_fnf_video_1.png">
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="">
+                                                                        <div id="video_box_small24" style="position:relative; cursor:pointer; height: 100%;">
+                                                                          <img id="play_button" style="position:absolute; top:0px; left:0px;width:100%;" src="/site/images/button_play.png"> <img style="width:100%;" src="/site/images/banner_book_club_video_1.png">
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="">
+                                                                        <div id="video_box_small22" style="position:relative; cursor:pointer; height: 100%;">
+                                                                          <img id="play_button" style="position:absolute; top:0px; left:0px;width:100%;" src="/site/images/button_play.png"> <img style="width:100%;" src="/site/images/banner_adventure_with_dad_1.png">
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="">
+                                                                        <div id="video_box_small23" style="position:relative; cursor:pointer; height: 100%;">
+                                                                          <img id="play_button" style="position:absolute; top:0px; left:0px;width:100%;" src="/site/images/button_play.png"> <img style="width:100%;" src="/site/images/banner_first_day_of_school_2.png">
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </td>
+                                                                </tr>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td align="center" valign="top">
+                                      <table width="250" height="300" cellspacing="0" cellpadding="0" border="0">
+                                        <tr>
+                                          <td align="center">
+                                            <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td>
+                                                  <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                      <td>
+                                                        <div class="tab_wiseman">
+                                                          <h1><img src="/wo_system/template/site2018/images/icon_login.png" style="height:1em;">&nbsp;&nbsp;Login</h1>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td valign="top" bgcolor="#B5B5B5" height="100%">
+                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                          <tr>
+                                                            <td valign="top">
+                                                              <form id="loginForm" method="POST" onsubmit="return validateLogin();">
+                                                                <table border="0" cellspacing="0" cellpadding="4">
+                                                                  <input type="hidden" name="schoolCode" value=""> <input type="hidden" name="username" value="">
+                                                                  <tr>
+                                                                    <td width="3"></td>
+                                                                    <td class="white_title">Location</td>
+                                                                    <td>
+                                                                      <select onchange="var redirect=value; value='mo.wiseman.com.hk'; window.location='https://' + redirect" style="width: 100%; padding: 3px;">
+                                                                        <option value="mo.wiseman.com.hk">Macau 澳門</option>
+                                                                        <option value="www.wiseman.com.hk">Hong Kong 香港</option>
+                                                                      </select>
+                                                                    </td>
+                                                                    <td width="3"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td width="3"></td>
+                                                                    <td class="white_title">Username</td>
+                                                                    <td><input type="text" name="usernameField" size="16"></td>
+                                                                    <td width="3"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td width="3"></td>
+                                                                    <td class="white_title">Password</td>
+                                                                    <td><input type="password" name="password" size="16"></td>
+                                                                    <td width="3"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td width="3"></td>
+                                                                    <td align="right" colspan="2">
+                                                                      <table border="0" cellpadding="0" cellspacing="0">
+                                                                        <tr>
+                                                                          <td width="20"><a href="/user/forget_password.shtml"><img src="/site/images/lock.gif" border="0"></a></td>
+                                                                          <td align="left"><a class="menu_top_small" href="/user/forget_password.shtml">Can't access your account?</a></td>
+                                                                          <td><input type="image" src="/site/images/submit.gif" value="Login at!"></td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td width="3"></td>
+                                                                  </tr>
+                                                                </table>
+                                                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                  <tr>
+                                                                    <td class="border_bottom" valign="top" height="1"><img src="/site/images/nil.gif" height="1" width="1"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td class="border_top" valign="top" height="1"><img src="/site/images/nil.gif" height="1" width="1"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td valign="middle" height="0">
+                                                                      <table width="100%" cellspacing="0" cellpadding="5" border="0">
+                                                                        <tr>
+                                                                          <td width="32" class="white_title"><img src="/site/images/icon_arrow.gif"></td>
+                                                                          <td class="white_title" align="left">Rankings</td>
+                                                                          <td align="right" valign="bottom"><a href="/site/achievement/student_rankings/" class="menu_top_small">More &gt;&nbsp;&nbsp;</a></td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td class="border_bottom" valign="top" height="1"><img src="/site/images/nil.gif" height="1" width="1"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td class="border_top" valign="top" height="1"><img src="/site/images/nil.gif" height="1" width="1"></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>
+                                                                      <table width="100%" height="30" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                          <td>&nbsp;&nbsp;<img style="vertical-align: middle;height: 1.5em;" src="/site/images/flag_mo.png" alt="">&nbsp;&nbsp;</td>
+                                                                          <td width="100%"><span class="white_title">&#xA;                 Hotline:&#xA;                </span> <span class="white_title">&#xA;                 +853 6253 1169&#xA;                </span></td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>
+                                                                      <table width="100%" height="30" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                          <td>&nbsp;&nbsp;<img style="vertical-align: middle;height: 1.5em;" src="/site/images/flag_hk.png" alt="">&nbsp;&nbsp;</td>
+                                                                          <td width="100%"><span class="white_title">&#xA;                 Hotline:&#xA;                </span> <span class="white_title">&#xA;                 +852 3188 2600&#xA;                </span></td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>
+                                                                      <table width="100%" height="30" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                          <td>&nbsp;&nbsp;<img style="vertical-align: middle;height: 1.5em;" src="/site/images/flag_cn.png" alt="">&nbsp;&nbsp;</td>
+                                                                          <td width="60%"><span class="white_title">&#xA;                 Hotline:&#xA;                </span> <span class="white_title">&#xA;                 &nbsp;400 9609 773&#xA;                </span></td>
+                                                                          <td align="right"><a href="/site/contacts/" class="menu_top_small">More &gt;&nbsp;&nbsp;</a></td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                  </tr>
+                                                                </table>
+                                                              </form>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td align="center" valign="top">
+                                      <table width="250" height="300" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td align="center" valign="top">
+                                            <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td valign="top">
+                                                  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tr>
+                                                      <td>
+                                                        <div class="tab_green">
+                                                          <h1>&nbsp;&nbsp;Primary RFU</h1>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                            <td valign="top" bgcolor="#FFFFFF">
+                                                              <table height="100%" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                <tr>
+                                                                  <td valign="top" height="275"><a href="/site/rfu/pri/" target="info"><img src="/site/images/banner_primary_reading_for_understanding_2.png" border="0"></a></td>
+                                                                </tr>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td align="center" valign="top">
+                                      <table width="250" height="300" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td align="center" valign="top">
+                                            <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td valign="top">
+                                                  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tr>
+                                                      <td>
+                                                        <div class="tab_light_blue">
+                                                          <h1>&nbsp;&nbsp;Secondary RFU</h1>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                            <td valign="top" bgcolor="#FFFFFF">
+                                                              <table height="100%" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                <tr>
+                                                                  <td valign="top" height="275"><a href="/site/rfu/sec/" target="info"><img src="/site/images/banner_secondary_reading_for_understanding.png" border="0"></a></td>
+                                                                </tr>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td align="center" valign="top">
+                                      <table width="250" height="300" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td align="center" valign="top">
+                                            <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td valign="top">
+                                                  <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+                                                    <tr>
+                                                      <td>
+                                                        <div class="tab_purple">
+                                                          <h1>&nbsp;&nbsp;Awards</h1>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>
+                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                            <td valign="top" bgcolor="#FFFFFF">
+                                                              <table height="100%" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                <tr>
+                                                                  <td valign="top" height="275">
+                                                                    <div id="slideshow6">
+                                                                      <div id="banner_award_ceremony_2018_1.png" class="fban">
+                                                                        <div style="position:absolute;">
+                                                                          <a href="/site/achievement/ceremony2018/"><img src="/site/images/banner_award_ceremony_2018_1.png"></a>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div id="banner_award_2018_5.png">
+                                                                        <div style="position:absolute;" id="reward_2017_box_small">
+                                                                          <img src="/site/images/banner_award_2018_5.png" border="0">
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </td>
+                                                                </tr>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="5" border="0" class="footer">
+                      <tr>
+                        <td align="middle">
+                          <table width="800" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td align="center"></td>
+                              <td rowspan="2" valign="bottom"><a href="/"><img src="/wo_system/template/site2018/images/wiseman_small.png" border="0"></a></td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom"><a href="/site/aboutus/">About us</a> | <a href="/site/contacts/">Contact us</a> | <a href="/site/support/">Support</a> | <a href="/site/law/disclaimer.shtml">Terms of Use</a> <br> <a href="/" class="copyright">© 2004-2018 Wiseman Education.</a> <a href="/site/law/copyright.shtml" class="copyright">All Rights Reserved.</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

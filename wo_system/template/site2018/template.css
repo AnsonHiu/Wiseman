@@ -1,0 +1,145 @@
+﻿a       				{ font-family: Tahoma; color: #003C40; text-decoration: none }
+a:link      			{ font-family: Tahoma; color: #003C40; text-decoration: none }
+a:visit     			{ font-family: Tahoma; color: #003C40; text-decoration: none }
+a:hover     			{ font-family: Tahoma; color: #DD0000; text-decoration: none }
+td.menu_top_box			{text-align: center;padding: 10px;}
+a.menu_top img {transition: transform 1s;-moz-transition: -moz-transform 1s;-webkit-transition: -webkit-transform 1s;-o-transition: -o-transform 1s;}
+.menu_top_box a.menu_top:hover img {transform: rotate(360deg);-ms-transform: rotate(360deg);-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);}
+.menu_top_box:nth-child(even) a.menu_top:hover img {transform: rotate(-360deg);-ms-transform: rotate(-360deg);-moz-transform: rotate(-360deg);-webkit-transform: rotate(-360deg);-o-transform: rotate(-360deg);}
+
+a.menu_top			{ font-family: Tahoma; font-size: 10pt; color: #003C40; text-decoration: none; font-weight: bold }
+a.menu_top:link		{ font-family: Tahoma; font-size: 10pt; color: #003C40; text-decoration: none; font-weight: bold }
+a.menu_top:visit	{ font-family: Tahoma; font-size: 10pt; color: #003C40; text-decoration: none; font-weight: bold }
+a.menu_top:hover	{ font-family: Tahoma; font-size: 10pt; color: #DD0000; text-decoration: none; font-weight: bold }
+a.menu_top_small		{ font-family: Tahoma; font-size: 8pt; color: #003C40; text-decoration: none; font-weight: bold }
+a.menu_top_small:link	{ font-family: Tahoma; font-size: 8pt; color: #003C40; text-decoration: none; font-weight: bold }
+a.menu_top_small:visit	{ font-family: Tahoma; font-size: 8pt; color: #003C40; text-decoration: none; font-weight: bold }
+a.menu_top_small:hover	{ font-family: Tahoma; font-size: 8pt; color: #DD0000; text-decoration: none; font-weight: bold }
+a.menu_side			{ font-family: Tahoma; font-size: 10pt; color: #000000; text-decoration: none }
+a.menu_side:link	{ font-family: Tahoma; font-size: 10pt; color: #000000; text-decoration: none }
+a.menu_side:visit	{ font-family: Tahoma; font-size: 10pt; color: #000000; text-decoration: none }
+a.menu_side:hover	{ font-family: Tahoma; font-size: 10pt; color: #DD0000; text-decoration: none }
+
+h1          		{ font-family: Tahoma; font-size: 11px; color: #FFFFFF; text-decoration: none; font-weight: bold; position: relative; top: 0px; margin: 0; padding: 0}
+h2          		{ font-family: Tahoma; color: #000000; font-size: 11pt; font-weight:bold}
+h3          		{ font-family: Tahoma; color: #000000; font-size: 10pt; font-weight:bold}
+h4          		{ font-family: Tahoma; color: #000000; font-size: 8pt; font-weight:bold; margin: 0; padding: 0}
+body        	{ font-family: Tahoma; font-size: 10pt; color: #333333; height: 100%; margin: 0; padding: 0; background-color: #FFFFFF }
+form			{ margin: 0; padding: 0 }
+p           		{ font-family: Tahoma; font-size: 10pt; color: #333333}
+table       	{ font-family: Tahoma; font-size: 10pt; color: #333333}
+input			{ font-family: Tahoma; font-size: 10pt; color: #333333}
+textarea		{ font-family: Tahoma; font-size: 10pt; color: #333333}
+
+.message			{ font-family: Tahoma; font-size: 8pt }
+.submit				{ font-family: Tahoma; font-size: 10pt; color: #003C40 }
+.title				{ font-family: Tahoma; font-size: 10pt; color: #003C40; font-weight:bold }
+.error				{ font-family: Tahoma; font-size: 10pt; color: #DD0000 }
+.banner		 		{ font-family: Tahoma; font-size: 10pt; color: #FFFFFF; text-decoration: none }
+.small				{ font-family: Tahoma; font-size: 7pt; color: #000000 }
+.grey_text			{ font-family: Tahoma; font-size: 10pt; color: #333333 }
+.red_title			{ font-family: Tahoma; color: #FF0000; font-weight: bold; font-size: 11pt; }
+.white_title		{ font-family: Tahoma; color: #FFFFFF; font-size: 8pt; }
+.black_title		{ font-family: Tahoma; color: #FFFFFF; font-size: 10pt; }
+.black_caption		{ font-family: Tahoma; color: #666666; font-size: 11pt; font-weight:bold}
+.grey_title			{ font-family: Tahoma; color: #666666; font-size: 11pt; font-weight:bold}
+.button_title		{ font-family: Tahoma; color: #003C40; font-weight: bold; font-size: 10pt; }
+.inline_table		{ display:inline; float:left }
+.footer				{ margin: 0; padding: 0; background-repeat: no-repeat; background-position: bottom right; background-color: #FFFFFF; border-top: 1px solid #B8BFC7 }
+.copyright			{ font-family: Tahoma; font-size: 8pt; color: #000000; text-decoration: none }
+a.copyright			{ font-family: Tahoma; font-size: 8pt; color: #000000; text-decoration: none }
+.table				{ border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; background-color: #FFFFFF }
+.tabletitle			{ background-color: #FFFFFF; border-bottom: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC;	align: left }
+.tablecontent 		{ background-color: #FFFFFF; border-bottom: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC }
+.tablestroke		{ border: 1px dashed #999999 }
+.indent				{ padding-left: 20px; margin-left: 20px}
+
+
+.topic_topleft_01	{ margin: 0; padding: 0; background: url("images/topleft_s01.gif"); background-repeat: no-repeat; background-position: top left }
+.topic_topright_01	{ margin: 0; padding: 0; background: url("images/topright_s01.gif"); background-repeat: no-repeat; background-position: top right }
+.topic_topleft_02	{ margin: 0; padding: 0; background: url("images/topleft_s02.gif"); background-repeat: no-repeat; background-position: top left }
+.topic_topright_02	{ margin: 0; padding: 0; background: url("images/topright_s02.gif"); background-repeat: no-repeat; background-position: top right }
+.topic_topleft_03	{ margin: 0; padding: 0; background: url("images/topleft_s03.gif"); background-repeat: no-repeat; background-position: top left }
+.topic_topright_03	{ margin: 0; padding: 0; background: url("images/topright_s03.gif"); background-repeat: no-repeat; background-position: top right }
+.topic_topleft_04	{ margin: 0; padding: 0; background: url("images/topleft_s04.gif"); background-repeat: no-repeat; background-position: top left }
+.topic_topright_04	{ margin: 0; padding: 0; background: url("images/topright_s04.gif"); background-repeat: no-repeat; background-position: top right }
+.topic_topleft_05	{ margin: 0; padding: 0; background: url("images/topleft_s05.gif"); background-repeat: no-repeat; background-position: top left }
+.topic_topright_05	{ margin: 0; padding: 0; background: url("images/topright_s05.gif"); background-repeat: no-repeat; background-position: top right }
+
+.header_background			{ margin: 0; padding: 0; background: url("images/header_background.png"); background-repeat: repeat-x; background-position: top left }
+.menu_top_background		{ margin: 0; padding: 0; background: url("images/header_menu_background.png"); background-repeat: repeat-x; background-position: top left;background-size: contain; }
+.content_background			{ margin: 0; padding: 0; background-color: #EFEFEF }
+
+.menu_topleft_01	{ margin: 0; padding: 0; background: url("images/menu_topleft_01.gif"); background-repeat: no-repeat; background-position: top left }
+.menu_topcenter_01	{ margin: 0; padding: 0; background: url("images/menu_topcenter_01.gif"); background-repeat: repeat-x; background-position: top left; background-color: #FFFFFF }
+.menu_topright_01	{ margin: 0; padding: 0; background: url("images/menu_topright_01.gif"); background-repeat: no-repeat; background-position: top right }
+.menu_topleft_02	{ margin: 0; padding: 0; background: url("images/menu_topleft_02.gif"); background-repeat: no-repeat; background-position: top left }
+.menu_topcenter_02	{ margin: 0; padding: 0; background: url("images/menu_topcenter_02.gif"); background-repeat: repeat-x; background-position: top left; background-color: #FFFFFF }
+.menu_topright_02	{ margin: 0; padding: 0; background: url("images/menu_topright_02.gif"); background-repeat: no-repeat; background-position: top right }
+.menu_topleft_03	{ margin: 0; padding: 0; background: url("images/menu_topleft_03.gif"); background-repeat: no-repeat; background-position: top left }
+.menu_topcenter_03	{ margin: 0; padding: 0; background: url("images/menu_topcenter_03.gif"); background-repeat: repeat-x; background-position: top left; background-color: #FFFFFF }
+.menu_topright_03	{ margin: 0; padding: 0; background: url("images/menu_topright_03.gif"); background-repeat: no-repeat; background-position: top right }
+.menu_topleft_04	{ margin: 0; padding: 0; background: url("images/menu_topleft_04.gif"); background-repeat: no-repeat; background-position: top left }
+.menu_topcenter_04	{ margin: 0; padding: 0; background: url("images/menu_topcenter_04.gif"); background-repeat: repeat-x; background-position: top left; background-color: #FFFFFF }
+.menu_topright_04	{ margin: 0; padding: 0; background: url("images/menu_topright_04.gif"); background-repeat: no-repeat; background-position: top right }
+.menu_topleft_05	{ margin: 0; padding: 0; background: url("images/menu_topleft_05.gif"); background-repeat: no-repeat; background-position: top left }
+.menu_topcenter_05	{ margin: 0; padding: 0; background: url("images/menu_topcenter_05.gif"); background-repeat: repeat-x; background-position: top left; background-color: #FFFFFF }
+.menu_topright_05	{ margin: 0; padding: 0; background: url("images/menu_topright_05.gif"); background-repeat: no-repeat; background-position: top right }
+
+
+.tab_pink {
+    background: #FF6699;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_red{
+    background: #CC3333;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_orange {
+    background: #FF9933;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_green {
+    background: #99CC33;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_light_blue {
+    background: #33CCCC;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_dark_blue {
+    background: #333399;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_purple {
+    background: #663399;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.tab_wiseman {
+    background: #006666;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.border_top			{ margin: 0; padding: 0; border-top: 1px #FFFFFF solid }
+.border_bottom		{ margin: 0; padding: 0; border-bottom: 1px #787878 solid}
+
+a.title				{ font-family: Tahoma; font-size: 8pt; font-weight: bold; color: #FFFFFF }
+
+#header_right{
+  padding-left: 95px;
+}
