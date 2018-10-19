@@ -232,59 +232,166 @@
     </style>
   </head>
   <body>
-      <header>
-        <div class="header_background" width="100%" align="center">
-            <table width="800" cellspacing="0" cellpadding="0" border="0">
-              <td width="185" valign="bottom" align="left">
-                <a href="/"><img src="/wo_system/template/site2018/images/wiseman_large1.gif" vspace="10" alt="Wiseman Education" border="0"></a>
-              </td>
-              <td id="header_right" valign="bottom">
-                <img src="/site/images/banner_wiseman1.gif" border="0">
-              </td>
+    <header>
+      <section class="header_background" width="100%" align="center">
+        <div style="width:800px">
+          <div id="header_left">
+            <a href="/"><img src="/wo_system/template/site2018/images/wiseman_large1.gif" vspace="10" alt="Wiseman Education"></a>
+          </div>
+          <div id="header_right">
+            <img src="/site/images/banner_wiseman1.gif">
+          </div>
+        </section>
+      </div>
+      <nav class="menu_top_background" width="100%" align="center">
+        <ul>
+          <li class="menu_top_box">
+            <a class="menu_top" href="site/initiatives/">
+              <img src="/wo_system/template/site2018/images/icon_initiatives.png">
+              <div>
+                                            Initiatives
 
+              </div>
+            </a></li>
+          <li class="menu_top_box">
+            <a class="menu_top" href="/site/achievement">
+              <img src="/wo_system/template/site2018/images/icon_achievement.png">
+              <div>
+                                            Achievement
+              </div>
+            </a></li>
+          <li class="menu_top_box">
+            <a class="menu_top" href="/site/aboutus/">
+              <img src="/wo_system/template/site2018/images/icon_about_us.png">
+              <div>
+                                            About Us
+              </div>
+            </a></li>
+          <li class="menu_top_box">
+            <a class="menu_top" href="/site/support/">
+              <img src="/wo_system/template/site2018/images/icon_support.png">
+              <div>
+                                            Support
+              </div>
+            </a></li>
+          <li class="menu_top_box">
+            <a class="menu_top" href="/site/contacts/">
+              <img src="/wo_system/template/site2018/images/icon_contact_us.png">
+              <div>
+                                            Contact Us
+              </div>
+            </a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <section>
+        <article>
+          <header class="tab_wiseman">
+            <h1><img src="/wo_system/template/site2018/images/icon_login.png" style="height:1em">
+              "&nbsp;&nbsp;Login"
+            </h1>
+          </header>
+          <section style="background-color:#B5B5B5; height:100%>
+            <form id="loginForm" method="POST" onsubmit="return validateLogin();">
+              <table border="0" cellspacing="0" cellpadding="4">
+                <input type="hidden" name="schoolCode" value>
+                <input type="hidden" name="username" value>
+                <tr>
+                  <td class="white_title">Location</td>
+                  <td> <select onchange="var redirect=value; value='mo.wiseman.com.hk'; window.location='https://' + redirect" style="width: 100%; padding: 3px">
+                    <option value="mo.wiseman.com.hk">Macau 澳門</option>
+                    <option value="www.wiseman.com.hk">Hong Kong 香港</option>
+                  </select></td>
+                </tr>
+                <tr>
+                  <td class="white_title">Username</td>
+                  <td><input type="text" name="usernameField" size="16"></td>
+                </tr>
+                <tr>
+                  <td class="white_title">Password</td>
+                  <td><input type="password" name="password" size="16"></td>
+                </tr>
+                <tr>
+                  <td align="right" colspan="2">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                      <td width="20">
+                        <a href="/user/forget_password.shtml">
+                          <img src="/site/images/lock.gif" border="0">
+                          </a>
+                        </td>
+                      <td align="left">
+                        <a class="menu_top_small" href="/user/forget_password.shtml">Can't access your account?</a>
+                        </td>
+                      <td>
+                        <input type="image" src="/site/images/submit.gif" value="Login at!">
+                        </td>
+                    </table>
+                    </td>
+                </tr>
+              </table>
+            </form>
+          </section>
+          <section style="background-color:#B5B5B5; height:100%>
+            <table>
+              <tr><td class="border_bottom" valign="top" height="1">
+                <img src="/site/images/nil.gif" height="1" width="1">
+              </td></tr>
+              <tr><td class="border_top" valign="bottom" height="1">
+                <img src="/site/images/nil.gif" height="1" width="1">
+              </td></tr>
+              <tr>
+                <td valign="middle" height="0">
+                  <table>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </table>
+                </td>
+              </tr>
             </table>
-        </div>
-        <div class="menu_top_background" width="100%" align="center">
-          <table width="800" cellspacing="0" cellpadding="0" border="0">
-            <td class="menu_top_box">
-              <a class="menu_top" href="site/initiatives/">
-                <img src="/wo_system/template/site2018/images/icon_initiatives.png">
-                <div>
-                                              Initiatives
+          </section>
+          <section style="background-color:#B5B5B5; height:100%>
+            <table>
+              <tr><td class="border_bottom" valign="top" height="1">
+                <img src="/site/images/nil.gif" height="1" width="1">
+              </td></tr>
+              <tr><td class="border_top" valign="bottom" height="1">
+                <img src="/site/images/nil.gif" height="1" width="1">
+              </td></tr>
+            </table>
+          </section>
+        </article>
+        <article>
+          <header class="tab_pink">
+            <h1>&nbsp;nbsp;News</h1>
+          </header>
+          <section>
 
-                </div>
-              </a><td>
-            <td class="menu_top_box">
-              <a class="menu_top" href="/site/achievement">
-                <img src="/wo_system/template/site2018/images/icon_achievement.png">
-                <div>
-                                              Achievement
-                </div>
-              </a></td>
-            <td class="menu_top_box">
-              <a class="menu_top" href="/site/aboutus/">
-                <img src="/wo_system/template/site2018/images/icon_about_us.png">
-                <div>
-                                              About Us
-                </div>
-              </a></td>
-            <td class="menu_top_box">
-              <a class="menu_top" href="/site/support/">
-                <img src="/wo_system/template/site2018/images/icon_support.png">
-                <div>
-                                              Support
-                </div>
-              </a></td>
-            <td class="menu_top_box">
-              <a class="menu_top" href="/site/contacts/">
-                <img src="/wo_system/template/site2018/images/icon_contact_us.png">
-                <div>
-                                              Contact Us
-                </div>
-              </a></td>
-          </table>
-        </div>
-      </header>
+          </section>
+        </article>
+        <article>
+          <header class="tab_red">
+            <h1>&nbsp;&nbsp;Sharing</h1>
+          </header>
+        </article>
+        <article>
+          <header class="tab_green">
+            <h1>&nbsp;&nbsp;Primary RFU</h1>
+          </header>
+        </article>
+        <article>
+          <header class="tab_light_blue">
+            <h1>&nbsp;&nbsp;Secondary RFU</h1>
+          </header>
+        </article>
+        <article>
+          <header class="tab_purple">
+            <h1>&nbsp;&nbsp;Awards</h1>
+          </header>
+        </article>
+      </section>
+
       <footer></footer>
     </body>
 </html>

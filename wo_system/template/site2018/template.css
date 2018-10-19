@@ -140,6 +140,7 @@ a.copyright			{ font-family: Tahoma; font-size: 8pt; color: #000000; text-decora
 
 a.title				{ font-family: Tahoma; font-size: 8pt; font-weight: bold; color: #FFFFFF }
 
-#header_right{
-  padding-left: 95px;
-}
+#header_left{ display:inline-block; }
+#header_right{  padding-left: 95px; display:inline-block; }
+ul{width: 800px;  margin:0 auto;}
+nav li{  width: 136px;  padding: 10px;  display: inline-block;  list-style-type: none;}
